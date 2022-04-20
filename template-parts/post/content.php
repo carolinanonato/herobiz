@@ -2,6 +2,7 @@
 /**
  * Template part for displaying posts.
  */
+
 ?>
 <article id="post-<?php the_ID() ?>">
     <header class="entry-header">
@@ -16,7 +17,7 @@
     <!-- Post thumbnail -->
     <?php
     if ( has_post_thumbnail() ) :
-        the_post_thumbnail( 'large' ); // full, large, medium, custom size
+        the_post_thumbnail( 'medium' ); // full, large, medium, custom size
     endif;
     ?>
     <!-- Post Content -->
